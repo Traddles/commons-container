@@ -30,7 +30,7 @@ dwc_otg.lpm_enable=0 console=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p2 roo
 # dhcp (?)
 dwc_otg.lpm_enable=0 console=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 ip=10.0.1.201 elevator=deadline rootwait
 
-# use nmap to find hosts in network
+# use nmap to find hosts in network (http://askubuntu.com/questions/425907/nmap-in-ubuntu-13-10)
 nmap -sn -oG ip.txt 10.0.1.1-255
 
 # use arp
